@@ -6,10 +6,6 @@ window.onload = function() {
     autoplay: {
       stopOnLastSlide: true,
     },
-    effect : 'fade',
-    fadeEffect: {
-      crossFade: true,
-    }
    
   })        
 }

@@ -1,0 +1,210 @@
+.header-wrap {
+	z-index: 999;
+	height: 48px;
+	line-height: 48px;
+}
+.header {
+	z-index: 99;
+	width: 100%;
+	height:　79px;
+	padding: 12px 5px;
+	position: fixed;
+	color: #fff;
+	font-size: 15px;
+}
+
+.head-left, .head-right {
+	display: inline-block;
+	height: 49px;
+	line-height: 49px;
+}
+.head-left > img {
+	float: left;
+	display: inline-block;
+}
+
+.head-left > .head-title {
+	border-left: 1px solid #fff;
+	padding-left: 16px;
+	margin-left: 16px;
+}
+
+
+.head-right button {
+	width: 90px;
+	height: 38px;
+	box-sizing: border-box;
+	border: 1px solid #019cff;
+	color: #fff;
+	font-size: 16px;
+}
+.head-right .loginBtn {
+	background-color: #019cff;
+}
+.head-right .registBtn {
+	background-color: rgba(0,0,0,0);
+}
+
+.head-center .head-nav {
+	list-style: none;
+}
+.head-center .navText {
+	float: left;
+	margin-right: 35px;
+}
+.head-center .navText a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+}
+
+/*轮播*/
+.swiper-container .swiper-slide img {
+	height: 750px;
+}
+
+/*文字段*/
+.page-segment {
+	width: 100%;
+}
+.split-block {
+	height: 60px;
+	line-height: 60px;
+	margin-top: -3px;
+	background-color: #0e294e;
+}
+.page-segment .split-text {
+	margin: 0px;
+	font-size: 20px;
+	letter-spacing: 18px;
+    font-weight: 400;
+	color: #fff;
+	text-align: center;
+}
+
+/*bubble-block*/
+.bubble-block {
+	height: 1269px;
+	position: relative;
+	background: #111020 url(../images/bg.png) no-repeat center 53px;
+}
+.bubble-block .cont-lists {
+	position: relative;
+}
+.bubble-block .list {
+	position: absolute;
+	color: #daf360;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 1px;
+	border-radius: 50%;
+	background: rgba(41,40,55,.6);
+}
+.bubble-block .list01 {
+	width: 146px;
+	height: 146px;
+	line-height: 146px;
+	top: 46px;
+	left: 470px;
+	font-size: 29px;
+
+}
+.bubble-block .list02 {
+	width: 157px;
+	height: 157px;
+	line-height: 157px;
+	top: 313px;
+	left: 115px;
+	font-size: 31px;
+}
+.bubble-block .list03 {
+	width: 128px;
+	height: 128px;
+	line-height: 128px;
+	top: 97px;
+	left: 740px;
+	font-size: 25px;
+}
+.bubble-block .list04 {
+	top: 180px;
+    left: 920px;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 24px;
+}
+.bubble-block .list05 {
+	top: 187px;
+    left: 350px;
+    width: 114px;
+    height: 114px;
+    line-height: 114px;
+    font-size: 23px;
+}
+.bubble-block .list06 {
+	top: 148px;
+    left: 220px;
+    width: 103px;
+    height: 103px;
+    line-height: 103px;
+    font-size: 21px;
+}
+.bubble-block .list07 {
+	top: 237px;
+    left: 626px;
+    width: 102px;
+    height: 102px;
+    line-height: 102px;
+    font-size: 20px;
+}
+.bubble-block .list08 {
+	top: 312px;
+    left: 815px;
+    width: 104px;
+    height: 104px;
+    line-height: 104px;
+    font-size: 21px;
+}
+
+.bubble-block .bubble-title {
+	position: absolute;
+	top: 360px;
+	width: 100%;
+	text-align: center;
+
+}
+.bubble-block .bubble-title .content {
+	height: 50px;
+	line-height: 50px;
+	margin: 0px;
+	color: #fff;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+.bubble-block .bubble-title span {
+	color: red;
+}
+.bubble-block .down {
+	width: 100%;
+	position: absolute;
+	top: 505px;
+	text-align: center;
+}
+
+.bubble-block .bub-links {
+	position: absolute;
+	top: 600px;
+	width: 100%;
+	color: #fff;
+}
+
+.bubble-block .bub-links .link-lists {
+}
+.bubble-block .bub-links .link-list {
+	width: 33.33%;
+	float: left;
+	margin: 48px 0 30px;
+	text-align: center;
+	background: url(../images/icon-plan-border.png) no-repeat 50%;
+}
+
