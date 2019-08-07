@@ -198,13 +198,26 @@
 	color: #fff;
 }
 
-.bubble-block .bub-links .link-lists {
+.bubble-block .bub-links .list-wrap {
+	margin: 20px auto;
+	width: 90px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+	background: url(../images/icon-plan-border.png) no-repeat 50%;
+}
+.bubble-block .list-wrap img {
+	vertical-align: middle;
 }
 .bubble-block .bub-links .link-list {
 	width: 33.33%;
+	height: 200px;
 	float: left;
-	margin: 48px 0 30px;
+	margin-top: 35px;
 	text-align: center;
-	background: url(../images/icon-plan-border.png) no-repeat 50%;
+}
+.bubble-block .link-list {
+	height: 40px;
+	line-height: 40px;
 }
 
